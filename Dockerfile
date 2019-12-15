@@ -3,6 +3,7 @@ USER root
 RUN apk update
 RUN apk add git
 RUN apk add make
+RUN apk add expect
 RUN apk add python3
 RUN apk add doxygen
 RUN apk add py3-pip
